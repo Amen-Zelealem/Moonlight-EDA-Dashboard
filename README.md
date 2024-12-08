@@ -60,7 +60,7 @@ Ensure you have Python 3.8+ and `pip` installed on your system.
 4. Install dependencies:
    pip install -r requirements.txt
 
-⚙️ Usage
+## ⚙️ Usage
 Place your raw CSV files in the data/ folder.
 
 Run the eda_analysis.py script:
@@ -71,7 +71,7 @@ View the outputs in the output/ folder:
     Summary statistics (saved in output/summaries/)
     Cleaned data (saved in output/cleaned/)
 
-📊 Example Output
+## 📊 Example Output
 Summary Statistics: A CSV file detailing mean, median, standard deviation, and missing values for each column.
 Visualizations:
 Time-series plots
@@ -79,11 +79,11 @@ Heatmaps for correlation
 Histograms for numerical columns
 Bubble charts (if applicable)
 
-🧩 Customization
+## 🧩 Customization
 Modify scripts/eda_analysis.py to include additional analyses.
 Adjust visualization styles and parameters using matplotlib and seaborn.
 
-🤝 Contributing
+## 🤝 Contributing
 1. Fork the repository.
 2. Create a new branch
    git checkout -b feature-name
@@ -93,5 +93,5 @@ Adjust visualization styles and parameters using matplotlib and seaborn.
    git push origin feature-name
 5. Open a pull request.
    
-📧 Contact
+## 📧 Contact
 For questions or support, please reach out to amenzelealem@gmail.com

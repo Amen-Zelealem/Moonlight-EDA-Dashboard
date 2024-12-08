@@ -47,7 +47,7 @@ Ensure you have Python 3.8+ and `pip` installed on your system.
 
 ### Installation
 1. Clone the repository:
-   git clone https://github.com/your-username/moonlight-eda-dashboard.git
+   git clone https://github.com/amen-zelealem/moonlight-eda-dashboard.git
 
 2. Navigate to the project directory:
    cd moonlight-eda-dashboard

@@ -2,6 +2,8 @@
 
 A comprehensive **Exploratory Data Analysis (EDA)** script designed to automate the analysis of raw datasets, generate statistical summaries, visualize data, and save cleaned outputs in an organized manner.
 
+## Click Here to Check out the Dashboard 
+[Moonlight-EDA-Dashboard](https://moonlight-eda-dashboard-by-amen-zelealem.streamlit.app/)
 ---
 
 ## 📁 Project Structure
@@ -22,6 +24,8 @@ Moonlight-EDA-Dashboard/
 
 
 ---
+
+
 
 ## 🚀 Features
 - **Input Directory**: Reads raw CSV files from the `data/` folder.

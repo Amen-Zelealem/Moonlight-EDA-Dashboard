@@ -113,8 +113,10 @@ for name, df in datasets.items():
     # Data Cleaning
     if "Comments" in df.columns:
         df.drop(columns=["Comments"], inplace=True)
-    df.fillna(method='ffill', inplace=True)
-    df.fillna(method='bfill', inplace=True)
+
+    df.ffill(inplace=True)
+    df.bfill(inplace=True)
+
     processed_file_path = os.path.join(processed_data_dir, f"cleaned_{name}.csv")
     df.to_csv(processed_file_path, index=False)
 
